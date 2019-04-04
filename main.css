@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#map {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0 ;
+    z-index: 1;
+    top: 0px;
+}
+
+.layerpanel label{
+    font-size: 18px;
+}
+
+.layerpanel{
+
+}
+
+.leaflet-top, .leaflet-right{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+.leaflet-top img, .leaflet-right img{
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-right:auto;
+    margin-left: 0px;
+    float: center;
+}
+.leaflet-control-wms-legend{
+    text-align: center;
+    width:500px;
+}
